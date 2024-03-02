@@ -31,7 +31,7 @@ header {
   text-decoration: none;
 }
 
-.header_logo {
+.header__logo-image {
   display: block;
   width: 148.11px;
   padding: 0 5px 0 6px;
