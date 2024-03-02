@@ -1,1 +1,283 @@
 /* место для вашего кода */
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  grid-template-rows: 105px;
+  justify-items: start;
+  align-items: start;
+  justify-content: space-between;
+  padding: 92px 24px 0px;
+  margin-bottom: 96px;
+}
+
+.header__links-list {
+  display: flex;
+  column-gap: 33px;
+  padding: 44px 0 0 22px;
+  font-size: 18px;
+  list-style-type: circle;
+  line-height: 21px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header_logo {
+  display: block;
+  width: 148.11px;
+  padding: 0 5px 0 6px;
+}
+
+.address {
+  list-style-type: none;
+  font-size: 18px;
+  width: 237px;
+  line-height: 24.3px;
+}
+
+.header__address {
+  margin: 5px 0px 0px 185px;
+}
+.header__address-item {
+  list-style-type: none;
+  font-style: normal;
+}
+
+.header__address-link {
+  text-underline-offset: 4px;
+  letter-spacing: 0.01em;
+}
+
+.cover {
+  position: relative;
+  height: 757px;
+  margin-bottom: 179px;
+  background: url(/ono-tebe-nado/images/cover.jpg) center no-repeat;
+}
+
+.cover__title {
+  position: relative;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 30px;
+}
+
+.aligned-text {
+  display: block;
+  padding: 165px 0px 0px 50px;
+}
+
+.aligned-text_center {
+  display: block;
+  padding: 9px 0px 0px 336px;
+}
+
+.aligned-text_right {
+  display: block;
+  padding: 2px 0px 0px 633px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.cover__description {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cover__description-text {
+  padding: 140px 0px 0px 78px;
+  font-size: 22px;
+  line-height: calc(28 / 22 * 100%);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  word-spacing: 17px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+.bet-button {
+  padding: 12px 32px;
+  margin: 125px 49px 3px 0px;
+  border: 1px solid rgb(255, 255, 255);
+  line-height: calc(26 / 22 * 100%);
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.lots {
+  padding: 0px 24px;
+  margin-bottom: 146px;
+}
+
+.lots__heading {
+  padding: 0px 0px 26px 40px;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  column-gap: 25px;
+  padding-bottom: 30px;
+  list-style-type: none;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 563px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 51px 40px 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_type_film {
+  background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
+}
+
+.card__title {
+  color: rgb(255, 255, 255);
+  font-size: 21.9px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.card__text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 24px;
+  z-index: 1;
+}
+
+.lots__look-more-link {
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.about__column {
+  display: flex;
+  column-gap: 48px;
+  margin-bottom: 180px;
+  list-style-type: none;
+}
+
+.footer__social-icon {
+  display: block;
+  width: 48px;
+}
+
+.about__logo {
+  padding: 36px 0px 0px 72px;
+  width: 334px;
+}
+
+.about__logo__background {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+}
+
+.about__logo-image {
+  display: block;
+  width: 147.54px;
+}
+
+.about__title {
+  padding: 138px 0px 100px 0px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  text-transform: uppercase;
+}
+
+.about__text__padding {
+  display: block;
+  padding: 0px 0px 24px 3px;
+  width: 688px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 24px;
+  width: 693px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__address {
+  margin-left: 47px;
+}
+
+.footer__menu {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.footer__menu-list-item {
+  list-style-type: none;
+}
+
+.footer__social-list {
+  display: flex;
+  column-gap: 48px;
+  list-style-type: none;
+  margin-right: 50px;
+}
