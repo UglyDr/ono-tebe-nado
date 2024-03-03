@@ -61,7 +61,7 @@ header {
   position: relative;
   height: 757px;
   margin-bottom: 179px;
-  background: url(/ono-tebe-nado/images/cover.jpg) center no-repeat;
+  background: url(./ono-tebe-nado/images/cover.jpg) center no-repeat;
 }
 
 .cover__title {
@@ -172,15 +172,15 @@ header {
 }
 
 .card_type_film {
-  background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
+  background-image: url(./ono-tebe-nado/images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
+  background-image: url(./ono-tebe-nado/images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
+  background-image: url(./ono-tebe-nado/images/card-lot-03.jpg);
 }
 
 .card__title {
